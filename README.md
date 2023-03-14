@@ -26,7 +26,7 @@ VirtualDrinks是一款基于3D 模型展示的云开发点餐小程序，旨在�
 
 ## 数据库E-R图
 
-![ER](assets/er.jpg)
+![ER](assets/ER.jpg)
 
 更多数据库图、表信息请下载[SDS.pdf](SDS.pdf)
 
