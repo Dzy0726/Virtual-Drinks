@@ -1,0 +1,10 @@
+<!--miniprogram/pages/paySuccess/paySuccess.wxml-->
+<view  style="margin:10rpx;text-align : center">
+  <image src="{{img}}"  mode="widthFix" style="width:60%;height:60%"></image>
+</view>
+<view style="margin:10rpx;text-align : center">
+  支付成功
+</view>
+<button type="primary" bindtap="goHome" >返回首页</button>
+
+<button type="primary" style="margin-top:20px" bindtap="goOrder">查看我的订单</button>

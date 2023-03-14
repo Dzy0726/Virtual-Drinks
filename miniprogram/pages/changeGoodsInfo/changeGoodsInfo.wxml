@@ -1,0 +1,22 @@
+<!--miniprogram/pages/changeGoodsInfo/changeGoodsInfo.wxml-->
+<view>
+  <view class="page__bd">
+    <mp-searchbar bindclear="recoveryResult" search="{{search}}" bindcancel="recoveryResult"></mp-searchbar>
+  </view>
+  <view class="page_title">
+    <text>左滑对相应商品进行修改</text>
+  </view>
+
+  <view class="goodsInfo">
+    <view class="weui-cells" >
+      <mp-slideview buttons="{{slideButtons}}" bindbuttontap="slideButtonTap" wx:for="{{goods}}" wx:key data-id="{{item._id}}" data-img="{{item.imgID}}">
+          <mp-cell value="{{item.goodsName}}" footer="¥{{item.goodsPrice}}">
+            <image slot="icon" src="{{item.imgID}}" class="img" ></image>
+          </mp-cell>
+      </mp-slideview>
+    </view>
+    <mp-dialog title="删除商品" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+      <view>您确认删除该商品？</view>
+    </mp-dialog>
+  </view>
+</view>

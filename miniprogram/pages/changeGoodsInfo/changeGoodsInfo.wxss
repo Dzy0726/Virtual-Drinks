@@ -1,0 +1,15 @@
+/* miniprogram/pages/changeGoodsInfo/changeGoodsInfo.wxss */
+.page_title{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 34rpx;
+  color: #007aff;
+}
+.img{
+  width:50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}

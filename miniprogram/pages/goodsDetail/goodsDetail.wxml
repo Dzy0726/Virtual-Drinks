@@ -1,0 +1,41 @@
+<!--商品幻灯片-->
+<view class="banner">
+  <image src="{{imgID}}"></image>
+</view>
+<!--商品幻灯片 end-->
+<view class="info-price clear">
+  <view class='price'>￥{{goodsPrice}} </view>
+</view>
+<view class="info-title">
+  <text>{{goodsName}}</text>
+</view>
+
+<view style="border-top:1px solid #F6F6F6;background: #fff; padding:5px 15px;">
+  <view class="clearfix flex grey gridXt">
+    <text class="sub">种类：{{goodsType}}</text>
+    <text class="sub">简介：{{goodsInfo}}</text>
+  </view>
+</view>
+<!--商品详情-->
+<view class='details_box'>
+  <view style="height:40px;line-height: 40px;border-bottom:1px solid #f5f5f5;">
+    <view>饮品配料</view>
+  </view>
+  <view style='padding:10px 0px;'>
+    <view class="wxParse">
+      {{goodsComponents}}
+    </view>
+  </view>
+</view>
+
+<!--底部浮动 start-->
+<view class="foot-nav mt15">
+  <view class="flex con gridXt tc">
+    <view class="add-cart sub f16">
+      <button class="add-cart-btn" bindtap='buy'>
+        <navigator target="miniProgram" open-type="navigate" app-id="wx2744476f6537dfe1" path="/pages/index/index" version="trial">3D模型
+        </navigator>
+      </button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+/* pages/order/order.wxss */
+
+page {
+  background-color: #f4f4f4;
+}
+
+.order_view {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+
+.order_view .top {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  /* font-weight: bold; */
+}
+
+.top .merchantsLOGO {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 50rpx;
+}
+
+.top .listTime {
+  font-size: small;
+  color: gainsboro;
+  margin-top: 20rpx;
+}
+
+.order_view .bottom {
+  margin: 0 30rpx;
+  padding: 30rpx 0 30rpx;
+  border-top: 1rpx solid #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  color: #6B6B6B;
+  font-size: small;
+}
+
+.order_view .bottom span {
+  /* margin-right: 30rpx; */
+  width: 30%;
+}
+
+.order_view .bottom .totalPrice {
+  width: 30%;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}

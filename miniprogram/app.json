@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/users/users",
+    "pages/changeGoodsInfo/changeGoodsInfo",
+    "pages/addGoods/addGoods",
+    "pages/changeDetails/changeDetails",
+    "pages/contact/contact",
+    "pages/shop/index/index",
+    "pages/goodsDetail/goodsDetail",
+    "pages/order/order",
+    "pages/orderMaster/orderMaster",
+    "pages/paySuccess/paySuccess"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Virtual Drinks",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home2.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/food2.png",
+        "iconPath": "images/food.png",
+        "pagePath": "pages/shop/index/index",
+        "text": "点餐"
+      },
+      {
+        "selectedIconPath": "images/user2.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/users/users",
+        "text": "我的"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx2744476f6537dfe1"
+  ],
+  "usingComponents": {
+    "mp-dialog": "weui-miniprogram/dialog/dialog",
+    "mp-toptips": "weui-miniprogram/toptips/toptips",
+    "mp-cells": "weui-miniprogram/cells/cells",
+    "mp-cell": "weui-miniprogram/cell/cell",
+    "mp-checkbox": "weui-miniprogram/checkbox/checkbox",
+    "mp-checkbox-group": "weui-miniprogram/checkbox-group/checkbox-group",
+    "mp-form": "weui-miniprogram/form/form",
+    "mp-uploader": "weui-miniprogram/uploader/uploader",
+    "mp-slideview": "weui-miniprogram/slideview/slideview",
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar"
+  }
+}

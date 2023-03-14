@@ -1,0 +1,144 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "appid": "wx166e694ba70638d4",
+  "projectname": "Virtual-Drinks",
+  "libVersion": "2.14.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/newIndex/newIndex",
+          "pathName": "pages/newIndex/newIndex",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "修改商品信息",
+          "pathName": "pages/changeGoodsInfo/changeGoodsInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的界面",
+          "pathName": "pages/users/users",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布新商品",
+          "pathName": "pages/addGoods/addGoods",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/merchantsDetail/merchantsDetail",
+          "pathName": "pages/merchantsDetail/merchantsDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shop/index/index",
+          "pathName": "pages/shop/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goodsDetail/goodsDetail",
+          "pathName": "pages/goodsDetail/goodsDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品列表",
+          "pathName": "pages/shop/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/orderDetail/orderDetail",
+          "pathName": "pages/orderDetail/orderDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/orderMaster/orderMaster",
+          "pathName": "pages/orderMaster/orderMaster",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shop/index/index",
+          "pathName": "pages/shop/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/order/order",
+          "pathName": "pages/order/order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "支付成功",
+          "pathName": "pages/paySuccess/paySuccess",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

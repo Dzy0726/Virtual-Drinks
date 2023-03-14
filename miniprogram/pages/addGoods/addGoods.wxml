@@ -1,0 +1,65 @@
+<!--miniprogram/pages/addGoods/addGoods.wxml-->
+<!-- 顶部提示状态 -->
+<mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+
+<view class="addGoodsPage">
+  <!-- 页面标题 -->
+  <view class="page_title">
+  </view>
+  <!-- 商品信息输入 -->
+  <view class="page_goodsinfo">
+
+    <mp-form id="form" rules="{{rules}}" models="{{formData}}">
+      <mp-cells title="商品信息" footer="联系管理员增加模型">
+
+        <!-- 商品名称 -->
+        <mp-cell prop="goodsname" title="商品名称" ext-class="page_goodsinfo">
+          <input bindinput="getGoodsName" data-field="goodsname" class="weui-input" placeholder="请输入商品名称" />
+        </mp-cell>
+
+        <!-- 商品价格 -->
+        <mp-cell prop="price" title="商品价格" ext-class="">
+          <input bindinput="getGoodsPrice" data-field="price" class="weui-input" placeholder="请输入商品价格" />
+        </mp-cell>
+
+        <!-- 商品配料成分 -->
+        <mp-cell prop="content" title="配料成分" ext-class="">
+          <input bindinput="getGoodsComponents" data-field="content" class="weui-input" placeholder="请输入商品的配料成分" />
+        </mp-cell>
+
+        <!-- 选择 商品类别 -->
+        <mp-cell prop="type" title="商品类型" ext-class="">
+          <picker bindchange="goodsTypeChange" value="{{typeIndex}}" range="{{types}}">
+            <view class="weui-select weui-select_in-select-after">{{types[typeIndex]}}</view>
+          </picker>
+        </mp-cell>
+
+        <!-- 上传图片 -->
+        <mp-cell>
+          <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}"
+            upload="{{uplaodFile}}" files="{{files}}" max-count="1" title="图片上传" tips="图片上传提示" delete="true" ></mp-uploader>
+        </mp-cell>
+
+      </mp-cells>
+      <!-- 商品详情 -->
+      <view class="page_title">商品简介</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea bindblur="getGoodsInfo" value="{{goodsInfo}}" class="weui-textarea" placeholder="请输入商品简介"
+              style="height: 3.3em" />
+            <view class="weui-textarea-counter">0/200</view>
+                </view>
+            </view>
+        </view>
+
+        
+      <!-- 发布按钮 -->
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" bindtap="submitForm" >确定发布</button>
+      </view>
+
+    </mp-form>
+
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!--jump.wxml-->
+
+<button class="item" open-type="contact">
+  <view class="item_left item">
+    <view class="item_title">客服会话</view>
+  </view>
+  <view class="item_right">
+    <view class="arrow">
+      <image src="../../images/feedback.jpg" style="width:20px;height:20px;"></image>
+    </view>
+  </view>
+</button>

@@ -1,0 +1,19 @@
+<view class="order_view" wx:for="{{order}}" wx:key data-id="{{item._id}}" bindtap="gotoOrderDetail">
+	<!--
+	<view class="top">
+		<image class="merchantsLOGO" src="{{item.order.merchantsImg}}"></image>
+		<view>
+			<view class="merchantsName">{{item.order.merchantsName}}</view>
+			<view class="listTime">{{item.order.listTime}}</view>
+
+		</view>
+	</view>
+-->
+	<view class="bottom">
+		<span wx:if = "{{item._openid == 'oI5iK5I3iFyzdchd_UV2Cw7YRlno'}}">AthenahrI</span> 
+		<span wx:if = "{{item._openid == 'oI5iK5KiB1_AwgZ6J5umLQv4xyd4'}}">Bay</span> 
+		<span class="foodsName">{{item.order.foodsName}}</span>
+		<span class="foodsCount">等{{item.order.foodsCount}}件商品</span>
+		<view class="totalPrice">￥{{item.order.totalPrice}}</view>
+	</view>
+</view>

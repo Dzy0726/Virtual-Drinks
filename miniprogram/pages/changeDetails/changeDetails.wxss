@@ -1,0 +1,6 @@
+/* miniprogram/pages/changeDetails/changeDetails.wxss */
+.page_title{
+  margin-top:16px;
+  margin-left:16px;
+  font-size: 18px;
+}
