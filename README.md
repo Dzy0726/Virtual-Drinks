@@ -2,6 +2,10 @@
 
 该项目为同济大学软件工程2020年软件工程课程设计项目
 
+VirtualDrinks是一款基于3D 模型展示的云开发点餐小程序，旨在通过和商家的合作，改善顾客的餐前体验。让顾客可以在漫长的餐前等待中，通过访问和使用小程序，看看餐厅准备的食物和饮品，仿佛触手可及，一缓眼前的疲劳，重新续上等待的耐心。
+
+
+
 ## 系统架构
 
 ![1](assets/1.jpg)
@@ -10,8 +14,27 @@
 
 更多系统架构设计、模块设计、类设计、接口设计以及界面设计的内容，请下载[SDS.pdf](SDS.pdf)
 
+
+
 ## 需求分析用例图
 
 ![usecase](assets/usecase.png)
 
 更多用例图、类图、活动图、时序图及需求分析部分请下载[Requirement analysis.pdf](Requirement analysis.pdf)
+
+
+
+## 数据库E-R图
+
+![ER](assets/er.jpg)
+
+更多数据库图、表信息请下载[SDS.pdf](SDS.pdf)
+
+
+
+## 原型展示
+
+| ![1](assets/main.jpg) | ![1](assets/mine.jpg)  | ![1](assets/mine2.jpg) |
+| --------------------- | ---------------------- | ---------------------- |
+| ![1](assets/good.jpg) | ![1](assets/good2.jpg) | ![1](assets/pay.jpg)   |
+
